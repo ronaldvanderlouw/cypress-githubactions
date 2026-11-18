@@ -13,5 +13,4 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v7
         with:
-          start: npm start
-          browser: chrome
+          command: npx cypress run --browser chrome
