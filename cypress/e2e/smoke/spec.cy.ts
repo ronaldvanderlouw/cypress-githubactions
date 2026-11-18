@@ -1,6 +1,6 @@
-describe("My First Cypress Test", () => {
+describe("Apex E-Commerce platform", () => {
   it("Should open a web page", () => {
-    cy.visit("https://storedemo.testdino.com/");
-   cy.get('[data-testid="header-logo"]').should('exist')
+    cy.visit("https://playwrightpad.com/sandbox/ecommerce");
+   cy.get('.badge-unique').should('contain.text', 'E-commerce Sandbox Platform');
   });
 });
