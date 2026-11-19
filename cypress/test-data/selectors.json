@@ -1,0 +1,59 @@
+{
+    "zoekbalk": "input[placeholder*=\"Waar ben je naar op zoek?\"]",
+    "productkaarten": {
+        "kaart": ".product-card",
+        "zichtbaarProduct": ".product-card:not(:has(.sold-out-badge)) .product-open",
+        "uitverkochtBadge": ".sold-out-badge"
+    },
+    "productdetail": {
+        "kop": ".detail-copy h1",
+        "prijs": ".detail-price",
+        "toevoegenKnop": "button[data-action=\"add-detail\"]"
+    },
+    "mandje": {
+        "headerKnop": "#header-cart",
+        "aantal": "#cart-count",
+        "regel": ".cart-item",
+        "regelNaam": ".cart-item h2",
+        "regelPrijs": ".cart-item-price",
+        "regelTotaal": ".cart-item .line-total",
+        "regelAantal": ".cart-item .quantity-control span"
+    },
+    "samenvatting": {
+        "kaart": ".summary-card",
+        "regel": ".summary-card .summary-line",
+        "regelLabel": "span",
+        "totaal": ".summary-card .summary-total strong",
+        "checkoutKnop": ".summary-card button[data-action=\"checkout\"]"
+    },
+    "adresformulier": {
+        "formulier": "#address-form",
+        "voornaam": "input[name=\"firstName\"]",
+        "achternaam": "input[name=\"lastName\"]",
+        "email": "input[name=\"email\"]",
+        "straat": "input[name=\"street\"]",
+        "huisnummer": "input[name=\"houseNumber\"]",
+        "postcode": "input[name=\"postalCode\"]",
+        "woonplaats": "input[name=\"city\"]",
+        "land": "input[name=\"country\"]",
+        "verzenden": "button.form-submit[type=\"submit\"]"
+    },
+    "kortingscode": {
+        "formulier": "#discount-form",
+        "invoer": "#discount-code",
+        "toepassen": "button[type=\"submit\"]",
+        "label": "Subtotaal producten",
+        "verzendLabel": "Verzending"
+    },
+    "betaling": {
+        "formulier": "#payment-form",
+        "kop": "#payment-form h2",
+        "methode": "#payment-form input[type=\"radio\"][name=\"payment\"][value=\"iDEAL\"]",
+        "betalen": "#payment-form button[type=\"submit\"]"
+    },
+    "bevestiging": {
+        "sectie": "[data-testid=\"order-confirmation\"]",
+        "kop": "h1",
+        "regel": ".confirmation-item"
+    }
+}

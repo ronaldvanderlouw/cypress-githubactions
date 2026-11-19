@@ -2,10 +2,12 @@ import { defineConfig } from "cypress";
 import { allureCypress } from "allure-cypress/reporter"
 import { Status } from "allure-js-commons";
 import * as os from "node:os";
+import { plugin as cypressGrepPlugin } from '@cypress/grep/plugin'
 
 export default defineConfig({
   e2e: {
     setupNodeEvents(on, config) {
+      cypressGrepPlugin(config)
       allureCypress(on, config, {
         resultsDir: "allure-results",
         links: {

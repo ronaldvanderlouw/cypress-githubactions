@@ -4,6 +4,8 @@
     "lib": ["es6", "dom"],
     "sourceMap": true,
     "allowJs": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
     "types": ["cypress", "node"]
   },
   "include": ["**/*.ts", "**/*.js"]

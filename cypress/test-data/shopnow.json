@@ -1,0 +1,50 @@
+{
+    "url": "https://shopnow.squerist.nl",
+    "timeouts": {
+        "pagina": 10000,
+        "element": 10000
+    },
+    "startpagina": {
+        "titel": "ShopNow",
+        "heroTekst": "Goed gekozen. Snel thuis.",
+        "zoekbalkPlaceholder": "Waar ben je naar op zoek?",
+        "mandjeLabel": "Mandje",
+        "mandjeAantal": "0",
+        "laadTekst": "De collectie wordt opgehaald..."
+    },
+    "categorieen": ["Alles", "Wonen", "Elektronica", "Keuken", "Lifestyle"],
+    "navigatie": {
+        "categorie": "Elektronica"
+    },
+    "zoeken": {
+        "term": "lamp",
+        "toets": "{enter}"
+    },
+    "winkelmandje": {
+        "leegAantal": "0",
+        "verzendkostenDrempel": 50,
+        "verzendkostenTarief": 4.95,
+        "gratisVerzendingTekst": "Gratis",
+        "verzendkostenTekst": "4,95"
+    },
+    "checkout": {
+        "klantGegevens": {
+            "firstName": "Jan",
+            "lastName": "de Vries",
+            "email": "jan.devries@voorbeeld.nl",
+            "street": "Hoofdstraat",
+            "houseNumber": "12",
+            "postalCode": "1012 AB",
+            "city": "Amsterdam",
+            "country": "Nederland"
+        },
+        "kortingscode": "WELCOME10",
+        "betaalmethode": "iDEAL"
+    },
+    "teksten": {
+        "naarBetaling": "Naar betaling|Verder naar betaling",
+        "betaalmethodeKop": "Kies je betaalmethode",
+        "betalenKnop": "Betalen",
+        "bevestigingKop": "Dankjewel"
+    }
+}
