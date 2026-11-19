@@ -1,3 +1,6 @@
 node_modules/
 .env
-
+# Reporting
+allure-results/ 
+allure-report/
+history.jsonl

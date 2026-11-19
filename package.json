@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "allure": "npx allure run --open -- npx cypress run"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
+    "@types/node": "^26.6.6",
+    "allure": "^3.33.0",
+    "allure-cypress": "^3.15.0",
     "cypress": "^16.3.0",
     "typescript": "^7.0.2"
   }
